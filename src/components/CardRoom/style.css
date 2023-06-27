@@ -1,0 +1,51 @@
+.card {
+  display: flex;
+  border: 1px solid var(--gray-200);
+  border-radius: 8px;
+
+  flex-direction: column;
+  overflow: hidden;
+
+  & .image {
+    width: 240px;
+    height: 160px;
+    background-image: url("https://media.omnibees.com/Images/5617/RoomTypes/640x426/1057063.jpg/");
+    background-position: center center;
+    background-size: contain;
+  }
+}
+
+.contentCard {
+  padding: 10px;
+}
+
+.infoRoom {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.topContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rateRoom {
+  display: flex;
+  gap: 4px;
+  color: var(--yel);
+
+  & p {
+    color: var(--gray-300);
+  }
+}
+
+strong {
+  color: var(--gray-300);
+  padding: 0;
+}
+
+.fonthThin {
+  font-size: 0.875rem;
+  color: var(--gray-200);
+}

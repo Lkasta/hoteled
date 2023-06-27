@@ -1,0 +1,59 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: var(--gray-100);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  background: none;
+  width: 100%;
+  color: #E1E1E6;
+}
+
+.mail {
+  padding: 8px;
+  border: none;
+  border-radius: 8px 8px 0px 0px;
+  border: 1px solid var(--gray-200);
+  background: none;
+}
+
+.pass {
+  padding: 8px;
+  border: none;
+  border-radius: 0px 0px 8px 8px;
+  border: 1px solid var(--gray-200);
+  border-top: 0px;
+}
+
+button {
+  margin-top: 16px;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  color: var(--gray-100);
+  background: var(--yel);
+  font-weight: 700;
+}
+
+button:hover {
+  color: #E1E1E6;
+  background: var(--gray-200);
+  cursor: pointer;
+}
+
+strong {
+  font-size: 1.4rem;
+  height: 700;
+  color: var(--yel);
+  padding: 1rem 0;
+}
